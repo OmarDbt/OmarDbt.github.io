@@ -18,7 +18,7 @@ function setup(){
       tamano: random(5, 20), // Tamaño aleatorio
       velocidadX: 0,
       velocidadY: 0,
-      color: random() > 0.5 ? color(255, 100, 150, 200) : color(100, 200, 255, 200), // Dos colores
+      color: random() > 0.5 ? color(102, 224, 0, 88) : color(224, 206, 0, 200), // Dos colores
     });
   }
 }

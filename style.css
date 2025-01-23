@@ -28,9 +28,11 @@ h1 {
     color: white;
      font-family: "Space Grotesk", sans-serif;
      font-optical-sizing: auto;
-     font-weight: <weight>;
+     font-weight: normal;
      font-style: normal;
      font-size: 3rem;
+     text-align: center;
+     margin-bottom: 2rem;
 }
 
 #my-p5-sketch{
@@ -57,14 +59,21 @@ a{
     padding: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    border: 2px solid rgb(245, 172, 1);
+    border: 2px solid rgb(7, 224, 0);
     border-radius: 10px;
 }
+.botonera {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
 .boton{
-    margin-block: 2rem;
+    margin-block: 0rem;
 }
 a:hover{
     transform: scale(1.1);
-    box-shadow: 0 5px 30px rgba(245, 172, 45, 1);
-    border: 1px solid rgb(245, 172, 1);
+    box-shadow: 0 5px 30px rgba(224, 206, 0, 88);
+    border: 1px solid rgb(195, 224, );
 }
